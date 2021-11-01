@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script language = "javascript" src = "functions.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SongLists</title>
+    <style = "text/css">
+        body {
+            text-align:center;
+        }
+        
+        table {
+            margin-left:auto;
+            margin-right:auto;
+        }
+    </style>
+</head>
+<body>
+    <h2>Serialized Display</h2>
+    <div id = "serializeData"></div>
+    <div>
+        <h2>User Friendly Display</h2>
+        <table id = "songs" border = "2">
+            <thead>
+                <th>Title</th>
+                <th>Artist</th>
+                <th colspan = "2" > Genres </th>
+                <th>Release Date</th>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h2>Filter</h2>
+        <form name = "form1">
+        <select name = "Genres" id = "genres">
+            <option value="Hip-Hop">Hip Hop</option>
+            <option value="Rap">Rap</option>
+            <option value="Pop">Pop</option>
+            <option value="RnB">RnB</option>
+        </select>
+        <input type = "button" value = "Filter" onclick = "filterForm()">
+        </form>
+        
+    </div>
+    <div style = "visibility:hidden" id = "filteredData">
+        <h2>Filtered Table</h2>
+        <table id = "filteredSongs" border = "2">
+            <thead>
+                <th>Title</th>
+                <th>Artist</th>
+                <th colspan = "2" > Genres </th>
+                <th>Release Date</th>
+            </thead>
+            <tbody id = "body">
+
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,101 @@
+[
+    {
+        "name": "3 Nights",
+        "artist": "Dominic Fike",
+        "genre": {
+            "first": "Hip-Hop",
+            "second": "Rap"
+        },
+        "released":"2018"
+    },
+    {
+        "name": "Politics and Violence",
+        "artist":"Dominic Fike",
+        "genre": {
+            "first": "Hip-Hop",
+            "second": "Rap"
+        },
+        "released":"2020"
+    },
+    {
+        "name":"Westcoast Collective",
+        "artist":"Dominic Fike",
+        "genre": {
+            "first": "Hip-Hop",
+            "second": "Rap"
+        },
+        "released":"2018"
+    },
+    {
+        "name":"Last Call",
+        "artist":"Kanye West",
+        "genre": {
+            "first": "Hip-Hop",
+            "second": "Rap"
+        },
+        "released":"2004"
+    },
+    {
+        "name":"Hurricane",
+        "artist":"Kanye West",
+        "genre": {
+            "first": "Hip-Hop",
+            "second": "Rap"
+        },
+        "released":"2021"
+    },
+    {
+        "name": "comethru",
+        "artist": "Jeremy Zucker",
+        "genre": {
+            "first": "Pop",
+            "second": "RnB"
+        },
+        "released":"2020"
+    },
+    {
+        "name": "this is how you fall in love",
+        "artist": "Jeremy Zucker",
+        "genre": {
+            "first": "Pop",
+            "second": "RnB"
+        },
+        "released":"2021"
+    },
+    {
+        "name": "Let's Fall in love for the night",
+        "artist": "FINNEAS",
+        "genre": {
+            "first": "Pop",
+            "second": ""
+        },
+        "released":"2019"
+    },
+    {
+        "name": "Make It Better",
+        "artist": "Anderson .Paak",
+        "genre": {
+            "first": "Hip-Hop",
+            "second": "RnB"
+        },
+        "released":"2019"
+    },
+    {
+        "name": "Make It Better",
+        "artist": "Anderson .Paak",
+        "genre": {
+            "first": "Hip-Hop",
+            "second": "RnB"
+        },
+        "released":"2019"
+    },
+    {
+        "name": "Make It Better",
+        "artist": "Anderson .Paak",
+        "genre": {
+            "first": "Hip-Hop",
+            "second": "RnB"
+        },
+        "released":"2019"
+    }
+]
